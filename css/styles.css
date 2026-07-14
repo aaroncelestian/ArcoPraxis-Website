@@ -146,7 +146,11 @@ h1, h2, h3, p {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 22px;
+}
+
+.nav-links a[href="privacy.html"] {
+  color: var(--text-dim);
 }
 
 .nav-links a {
@@ -944,6 +948,16 @@ h1, h2, h3, p {
   max-width: none;
 }
 
+.contact .section-head .lead a {
+  color: var(--accent-light);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact .section-head .lead a:hover {
+  color: var(--text);
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -1064,6 +1078,7 @@ h1, h2, h3, p {
 
 .footer-nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
