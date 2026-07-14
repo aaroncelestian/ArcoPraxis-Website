@@ -775,6 +775,23 @@ h1, h2, h3, p {
   align-items: start;
 }
 
+.story-shot {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #000;
+}
+
+.story-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .story-prose p {
   margin-bottom: 20px;
   color: var(--text-muted);
