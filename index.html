@@ -61,13 +61,14 @@
         </div>
         <div class="hero-visual reveal reveal-delay-1">
           <div class="device-frame">
-            <div class="device-screen placeholder" data-label="App screenshot — score reader">
-              <div class="placeholder-staff" aria-hidden="true">
-                <span></span><span></span><span></span><span></span><span></span>
-              </div>
-              <div class="placeholder-notes" aria-hidden="true">
-                <span></span><span></span><span></span><span></span><span></span>
-              </div>
+            <div class="device-screen">
+              <img
+                src="images/loop-player.png"
+                alt="ArcoPraxis score reader with a looped passage selected, tempo at 50 bpm, and built-in tuner"
+                width="1600"
+                height="1169"
+                fetchpriority="high"
+              >
             </div>
           </div>
         </div>
@@ -132,7 +133,15 @@
                 pitch. Practice at <em>your</em> speed, not the virtuoso's.
               </p>
             </div>
-            <div class="feature-visual placeholder placeholder-sm" data-label="Tempo slider"></div>
+            <figure class="feature-shot">
+              <img
+                src="images/midi-player.png"
+                alt="ArcoPraxis MIDI playback with tempo controls and a highlighted measure on the score"
+                width="1600"
+                height="1168"
+                loading="lazy"
+              >
+            </figure>
           </article>
 
           <article class="feature-card reveal reveal-delay-1">
@@ -159,35 +168,57 @@
             </p>
           </article>
 
-          <article class="feature-card reveal reveal-delay-1">
+          <article class="feature-card feature-card-wide reveal reveal-delay-1">
             <div class="feature-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48" fill="none"><path d="M24 8v32M16 16l8-8 8 8M16 32l8 8 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" opacity="0.3"/></svg>
             </div>
-            <h3>Tuner &amp; metronome built in</h3>
-            <p>
-              No app-switching mid-practice. Tune up, set your tempo, and stay
-              in the flow — everything lives in one place.
-            </p>
+            <div class="feature-body">
+              <h3>Tuner &amp; metronome built in</h3>
+              <p>
+                No app-switching mid-practice. Tune up, set your tempo, and stay
+                in the flow — everything lives in one place.
+              </p>
+            </div>
+            <figure class="feature-shot">
+              <img
+                src="images/practice-tools.png"
+                alt="ArcoPraxis with metronome, playback controls, loop tools, and a live tuner reading A at center"
+                width="1600"
+                height="1168"
+                loading="lazy"
+              >
+            </figure>
           </article>
 
-          <article class="feature-card reveal reveal-delay-2">
+          <article class="feature-card feature-card-wide reveal reveal-delay-2">
             <div class="feature-icon" aria-hidden="true">
               <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="10" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M16 18h16M16 24h12M16 30h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/></svg>
             </div>
-            <h3>Import anything</h3>
-            <p>
-              Photos, scanned documents, PDFs, MusicXML, and native
-              <strong>.arco</strong> files — the best format for practice.
-              Your teacher can send you assignments directly in Arco format,
-              ready to load and play.
-            </p>
-            <div class="import-tags">
-              <span>Photos</span>
-              <span>Scans</span>
-              <span>PDF</span>
-              <span>MusicXML</span>
-              <span>.arco</span>
+            <div class="feature-body">
+              <h3>Import anything</h3>
+              <p>
+                Photos, scanned documents, PDFs, MusicXML, and native
+                <strong>.arco</strong> files — the best format for practice.
+                Your teacher can send you assignments directly in Arco format,
+                ready to load and play.
+              </p>
+              <div class="import-tags">
+                <span>Photos</span>
+                <span>Scans</span>
+                <span>PDF</span>
+                <span>MusicXML</span>
+                <span>.arco</span>
+              </div>
             </div>
+            <figure class="feature-shot">
+              <img
+                src="images/import-options.png"
+                alt="Add Score dialog with Import Score, Scan Image, Photo, and PDF Score options"
+                width="1600"
+                height="1171"
+                loading="lazy"
+              >
+            </figure>
           </article>
         </div>
       </div>
@@ -225,20 +256,26 @@
           </p>
         </div>
         <div class="detection-visual reveal reveal-delay-1">
-          <div class="detection-diagram placeholder" data-label="Detection visualization">
-            <div class="diagram-grid" aria-hidden="true">
-              <div class="diagram-pass h-pass">H-pass ✓</div>
-              <div class="diagram-pass v-pass">V-pass ✓</div>
-              <div class="diagram-intersection">Notehead</div>
-              <div class="diagram-fail">Stem ✗</div>
-              <div class="diagram-fail">Beam ✗</div>
-              <div class="diagram-fail">Staff line ✗</div>
-            </div>
-          </div>
-          <div class="detection-before-after">
-            <div class="placeholder placeholder-sm" data-label="Original scan"></div>
-            <div class="placeholder placeholder-sm" data-label="Detected noteheads"></div>
-          </div>
+          <figure class="detection-shot">
+            <img
+              src="images/notehead-detection.png"
+              alt="Review Scan screen showing detected noteheads highlighted in green on a Vivaldi score"
+              width="1600"
+              height="1172"
+              loading="lazy"
+            >
+            <figcaption>Noteheads found on-device — ready to use or fine-tune</figcaption>
+          </figure>
+          <figure class="detection-shot detection-shot-sm">
+            <img
+              src="images/staff-detection.png"
+              alt="Adjust Staff Lines screen with colored handles aligned to each staff"
+              width="1600"
+              height="1170"
+              loading="lazy"
+            >
+            <figcaption>Staff alignment when a scan needs a nudge</figcaption>
+          </figure>
         </div>
       </div>
     </section>
@@ -266,9 +303,6 @@
             <h3>Be a cello hero</h3>
             <p>Speed it up. Loop it. Push the tempo until the passage feels effortless.</p>
           </article>
-        </div>
-        <div class="flow-visual reveal">
-          <div class="placeholder placeholder-wide" data-label="Practice mode comparison"></div>
         </div>
       </div>
     </section>
