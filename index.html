@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ArcoPraxis — the cello practice app built for real progress. Scan any score, slow it down with zero distortion, loop the hard parts, and focus on intonation. No ads. Pay once, play forever.">
+  <title>ArcoPraxis — Practice Smarter. Play Better.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/logo_dark.png" type="image/png">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav-logo" href="#top">
+        <img class="nav-logo-mark" src="images/logo_dark.png" alt="" width="32" height="32">
+        <span class="nav-logo-text">ArcoPraxis</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#detection">Detection</a></li>
+        <li><a href="#story">Why I Built It</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a class="nav-cta" href="#download">Get the App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Built for cello practice</p>
+          <h1>Your score.<br>Your tempo.<br>Your progress.</h1>
+          <p class="hero-lede">
+            ArcoPraxis is dedicated to one thing: helping you practice better.
+            Not a gig app. Not a curated score library. Just powerful tools that
+            turn any sheet music into a personal coach.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#download">Get ArcoPraxis</a>
+            <a class="btn btn-ghost" href="#features">See what's inside</a>
+          </div>
+          <ul class="hero-badges">
+            <li>No ads</li>
+            <li>Pay once</li>
+            <li>Free updates</li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal reveal-delay-1">
+          <div class="device-frame">
+            <div class="device-screen placeholder" data-label="App screenshot — score reader">
+              <div class="placeholder-staff" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="placeholder-notes" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="8" r="2" fill="currentColor"/></svg>
+      </div>
+    </section>
+
+    <!-- Not that kind of app -->
+    <section class="philosophy section" id="philosophy">
+      <div class="container narrow reveal">
+        <p class="eyebrow">What ArcoPraxis is — and isn't</p>
+        <h2>This is not another music app you've seen before.</h2>
+        <p class="lead">
+          Popular apps are built for gigs, libraries, and browsing thousands of scores.
+          ArcoPraxis is built for <em>you</em> — sitting in the practice room,
+          working on the passage that keeps beating you.
+        </p>
+        <div class="philosophy-cards">
+          <article class="phil-card phil-card-no">
+            <h3>Not this</h3>
+            <ul>
+              <li>A gig app with setlists and stage mode</li>
+              <li>A curated library of famous scores</li>
+              <li>A social platform for performers</li>
+              <li>Endless subscriptions and upsells</li>
+            </ul>
+          </article>
+          <article class="phil-card phil-card-yes">
+            <h3>This</h3>
+            <ul>
+              <li>Your teacher's assignment, ready to practice</li>
+              <li>Your photo, scan, PDF, or MusicXML</li>
+              <li>Loop the hard part until you own it</li>
+              <li>Slow down without destroying the sound</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Practice tools</p>
+          <h2>Everything you need to go deep on a passage.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-card-wide reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M8 36V12M16 36V8M24 36V16M32 36V10M40 36V20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M6 36h36" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/></svg>
+            </div>
+            <div class="feature-body">
+              <h3>Slow down to any speed — zero distortion</h3>
+              <p>
+                Slow YouTube and the audio turns to mush. ArcoPraxis uses a real cello
+                synthesizer, so you can drop to any tempo and still hear clean, musical
+                pitch. Practice at <em>your</em> speed, not the virtuoso's.
+              </p>
+            </div>
+            <div class="feature-visual placeholder placeholder-sm" data-label="Tempo slider"></div>
+          </article>
+
+          <article class="feature-card reveal reveal-delay-1">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5"/><path d="M24 14v10l7 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Remove the rhythm</h3>
+            <p>
+              Strip away timing to focus purely on intonation. Hit every note
+              in tune before you worry about the beat. Add rhythm back when
+              you're ready to work on shifts and phrasing.
+            </p>
+          </article>
+
+          <article class="feature-card reveal reveal-delay-2">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M12 24h24M12 24a12 12 0 1 0 24 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M12 24a12 12 0 0 1 24 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/></svg>
+            </div>
+            <h3>Loop mode</h3>
+            <p>
+              Select the measures that haunt you and loop them — over and over
+              and over — until you've mastered them. The practice room's best
+              friend.
+            </p>
+          </article>
+
+          <article class="feature-card reveal reveal-delay-1">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 8v32M16 16l8-8 8 8M16 32l8 8 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" opacity="0.3"/></svg>
+            </div>
+            <h3>Tuner &amp; metronome built in</h3>
+            <p>
+              No app-switching mid-practice. Tune up, set your tempo, and stay
+              in the flow — everything lives in one place.
+            </p>
+          </article>
+
+          <article class="feature-card reveal reveal-delay-2">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="10" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M16 18h16M16 24h12M16 30h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/></svg>
+            </div>
+            <h3>Import anything</h3>
+            <p>
+              Photos, scanned documents, PDFs, MusicXML, and native
+              <strong>.arco</strong> files — the best format for practice.
+              Your teacher can send you assignments directly in Arco format,
+              ready to load and play.
+            </p>
+            <div class="import-tags">
+              <span>Photos</span>
+              <span>Scans</span>
+              <span>PDF</span>
+              <span>MusicXML</span>
+              <span>.arco</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Raisin Bread Detection -->
+    <section class="detection section" id="detection">
+      <div class="container detection-grid">
+        <div class="detection-copy reveal">
+          <p class="eyebrow">Under the hood</p>
+          <h2>The Raisin Bread detection algorithm</h2>
+          <p class="lead">
+            No machine learning. No training data. No cloud API waiting on a server
+            halfway around the world. Just clever geometry that finds noteheads the
+            way a human eye does — by asking the right questions in two dimensions.
+          </p>
+          <ul class="stat-list">
+            <li>
+              <strong>&gt;95%</strong>
+              <span>notehead finding accuracy</span>
+            </li>
+            <li>
+              <strong>Minimal</strong>
+              <span>editing after detection</span>
+            </li>
+            <li>
+              <strong>On-device</strong>
+              <span>runs entirely on your iPhone or iPad</span>
+            </li>
+          </ul>
+          <p class="detection-detail">
+            Like finding raisins in a slice of bread — scan horizontally, scan vertically,
+            and only the objects that pass <em>both</em> tests at the same spot are noteheads.
+            Stems, beams, staff lines, and text fail one test or the other. Noteheads pass both.
+          </p>
+        </div>
+        <div class="detection-visual reveal reveal-delay-1">
+          <div class="detection-diagram placeholder" data-label="Detection visualization">
+            <div class="diagram-grid" aria-hidden="true">
+              <div class="diagram-pass h-pass">H-pass ✓</div>
+              <div class="diagram-pass v-pass">V-pass ✓</div>
+              <div class="diagram-intersection">Notehead</div>
+              <div class="diagram-fail">Stem ✗</div>
+              <div class="diagram-fail">Beam ✗</div>
+              <div class="diagram-fail">Staff line ✗</div>
+            </div>
+          </div>
+          <div class="detection-before-after">
+            <div class="placeholder placeholder-sm" data-label="Original scan"></div>
+            <div class="placeholder placeholder-sm" data-label="Detected noteheads"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Practice flow -->
+    <section class="flow section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Your practice, your way</p>
+          <h2>One passage. Three modes. Infinite reps.</h2>
+        </div>
+        <div class="flow-steps">
+          <article class="flow-step reveal">
+            <span class="flow-num">01</span>
+            <h3>Focus on intonation</h3>
+            <p>Remove rhythm. Hear each pitch clearly. Fix the notes that slip sharp or flat.</p>
+          </article>
+          <article class="flow-step reveal reveal-delay-1">
+            <span class="flow-num">02</span>
+            <h3>Work on shifts</h3>
+            <p>Add rhythm back. Now the timing matters — nail the shifts and string crossings.</p>
+          </article>
+          <article class="flow-step reveal reveal-delay-2">
+            <span class="flow-num">03</span>
+            <h3>Be a cello hero</h3>
+            <p>Speed it up. Loop it. Push the tempo until the passage feels effortless.</p>
+          </article>
+        </div>
+        <div class="flow-visual reveal">
+          <div class="placeholder placeholder-wide" data-label="Practice mode comparison"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="story section" id="story">
+      <div class="container story-grid">
+        <div class="story-copy reveal">
+          <p class="eyebrow">Why I built it</p>
+          <h2>YouTube cellists are amazing. They're also way too fast.</h2>
+          <div class="story-prose">
+            <p>
+              I built ArcoPraxis because I was frustrated with YouTube. The cellists
+              on there are incredible — but they play too fast for a beginner. Even
+              when they play slow, it's <em>still</em> too fast.
+            </p>
+            <p>
+              Slow down YouTube itself and the sound gets super distorted — awful
+              to practice with. And the ads. Holy moly, the ads.
+            </p>
+            <p>
+              ArcoPraxis lets you slow music playback to any speed with
+              <strong>zero distortion</strong>. Remove the rhythm to focus on
+              intonation. Add it back to focus on shifts. Speed it up and be a
+              cello hero. It's your call.
+            </p>
+            <p>
+              And the ads? <strong>None.</strong> Pay once, play forever. Free updates.
+            </p>
+          </div>
+        </div>
+        <div class="story-visual reveal reveal-delay-1">
+          <div class="placeholder placeholder-portrait" data-label="Founder / practice photo"></div>
+          <blockquote class="story-quote">
+            <p>"Even when they play slow, it's still too fast."</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap teaser -->
+    <section class="roadmap section">
+      <div class="container narrow reveal">
+        <p class="eyebrow">This is just the beginning</p>
+        <h2>Loads more features are planned.</h2>
+        <p class="lead">
+          ArcoPraxis is actively evolving — new practice modes, smarter editing tools,
+          and deeper intonation feedback are all on the way. Buy once and every update
+          is yours, free.
+        </p>
+        <div class="roadmap-items">
+          <span>Interval quizzes</span>
+          <span>Sight-reading mode</span>
+          <span>Live intonation feedback</span>
+          <span>Fingering overlays</span>
+          <span>And more…</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing / CTA -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="pricing-card reveal">
+          <div class="pricing-copy">
+            <p class="eyebrow">Simple pricing</p>
+            <h2>Pay once. Play forever.</h2>
+            <p>
+              No subscriptions. No ads interrupting your practice. No "premium tier"
+              holding features hostage. One purchase, lifetime access, free updates.
+            </p>
+            <ul class="pricing-perks">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L8 12.586l7.293-7.293a1 1 0 0 1 1.414 0z" clip-rule="evenodd"/></svg>
+                Full app — no feature gates
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L8 12.586l7.293-7.293a1 1 0 0 1 1.414 0z" clip-rule="evenodd"/></svg>
+                All future updates included
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L8 12.586l7.293-7.293a1 1 0 0 1 1.414 0z" clip-rule="evenodd"/></svg>
+                Zero ads — ever
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L8 12.586l7.293-7.293a1 1 0 0 1 1.414 0z" clip-rule="evenodd"/></svg>
+                On-device recognition — your scores stay private
+              </li>
+            </ul>
+          </div>
+          <div class="pricing-action" id="download">
+            <div class="placeholder placeholder-appstore" data-label="App Store badge"></div>
+            <p class="pricing-note">Available on iPhone &amp; iPad · iOS 17+</p>
+            <a class="btn btn-primary btn-lg" href="#">Download on the App Store</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="#top">
+          <img src="images/logo_dark.png" alt="" width="28" height="28">
+          <span>ArcoPraxis</span>
+        </a>
+        <p>Dedicated to practice. Built for cellists.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#detection">Detection</a>
+        <a href="#story">Story</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> ArcoPraxis. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
