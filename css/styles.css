@@ -362,6 +362,16 @@ h1, h2, h3, p {
 }
 
 /* Device frame */
+.device-duo {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+  justify-items: center;
+  padding-bottom: 6%;
+  padding-right: 8%;
+}
+
 .device-frame {
   position: relative;
   padding: 10px;
@@ -373,11 +383,36 @@ h1, h2, h3, p {
     0 0 60px var(--accent-glow);
 }
 
+.device-frame-ipad {
+  width: 100%;
+  max-width: 560px;
+  z-index: 1;
+}
+
+.device-frame-iphone {
+  position: absolute;
+  right: -4%;
+  bottom: -8%;
+  width: 34%;
+  max-width: 180px;
+  padding: 8px;
+  border-radius: 28px;
+  z-index: 2;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 24px 48px rgba(0, 0, 0, 0.55);
+}
+
 .device-screen {
   border-radius: 20px;
   overflow: hidden;
   background: #0c0c14;
-  aspect-ratio: 1600 / 1169;
+  aspect-ratio: 4 / 3;
+}
+
+.device-screen-phone {
+  border-radius: 20px;
+  aspect-ratio: 9 / 19.5;
 }
 
 .device-screen img {
@@ -607,6 +642,18 @@ h1, h2, h3, p {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.feature-shot-phone {
+  max-width: 280px;
+  margin-inline: auto;
+  border-radius: 28px;
+}
+
+.feature-shot-phone img {
+  aspect-ratio: 9 / 19.5;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .import-tags {
@@ -1166,6 +1213,13 @@ h1, h2, h3, p {
     order: -1;
     max-width: 560px;
     margin-inline: auto;
+    padding-bottom: 12%;
+  }
+
+  .device-frame-iphone {
+    right: 0;
+    bottom: 0;
+    width: 32%;
   }
 
   .footer-grid {
