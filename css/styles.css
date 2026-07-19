@@ -656,6 +656,16 @@ h1, h2, h3, p {
   object-position: top center;
 }
 
+.feature-shot-diagram {
+  background: #0e0e18;
+  padding: 20px 16px;
+}
+
+.feature-shot-diagram img {
+  width: 100%;
+  height: auto;
+}
+
 .import-tags {
   display: flex;
   flex-wrap: wrap;
